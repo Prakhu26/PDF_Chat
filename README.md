@@ -35,19 +35,18 @@ This project is a Streamlit-based web application that allows users to upload PD
       └────────┬───────────────────────────▲─────────┘
                │                           │
      Store as Embeddings          Retrieve Relevant Chunks
-
-(Jina + Chroma Vectorstore) using Retriever
-│ │
-▼ ▼
-┌────────────────┐ ┌────────────────────────┐
-│ Vector Database│◄────┤ Retrieval Chain (RAG) │
-└────────────────┘ └──────────┬─────────────┘
-│
-▼
-Generate Answer via Groq LLM
-|
-▼
-Return Answer + Source Docs
+ (Jina + Chroma Vectorstore)         using Retriever
+               │                           │
+               ▼                           ▼
+     ┌────────────────┐      ┌────────────────────────┐
+     │ Vector Database│ ◄────┤ Retrieval Chain (RAG)  │
+     └────────────────┘      └──────────┬─────────────┘
+                                        │
+                                        ▼
+                           Generate Answer via Groq LLM
+                                        │
+                                        ▼
+                           Return Answer + Source Docs
 
 ---
 

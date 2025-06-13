@@ -66,9 +66,9 @@ This project is a Streamlit-based web application that allows users to upload PD
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repo
-
 ```bash
+
+# Clone the Repo
 git clone https://github.com/your-username/pdf-chat-rag.git
 cd pdf-chat-rag
 

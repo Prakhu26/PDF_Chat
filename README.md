@@ -17,7 +17,7 @@ This project is a Streamlit-based web application that allows users to upload PD
 ---
 
 ## 🧱 Architecture Overview
-
+<pre>
                         ┌────────────────────┐
                         │   Streamlit Front  │
                         │     (UI + Chat)    │
@@ -47,7 +47,7 @@ This project is a Streamlit-based web application that allows users to upload PD
                                         │
                                         ▼
                            Return Answer + Source Docs
-
+</pre>
 ---
 
 ## 🧰 Tech Stack
